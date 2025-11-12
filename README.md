@@ -42,4 +42,8 @@ As a temporary workaround, add `usbhid.quirks=0x2d99:0xa101:0x400` to your kerne
 
 ## Simple video where I show the sycronization and use idle wrong because I was excited. It's in portuguese so...
 
-[![Watch the video](https://img.youtube.com/vi/k4Ag1TyBJ8g/maxresdefault.jpg)](https://youtu.be/k4Ag1TyBJ8g)
+<p align="center">
+  <a href="https://youtu.be/k4Ag1TyBJ8g" target="_blank">
+    <img src="https://img.youtube.com/vi/k4Ag1TyBJ8g/hqdefault.jpg" alt="Watch the video" width="480">
+  </a>
+</p>
