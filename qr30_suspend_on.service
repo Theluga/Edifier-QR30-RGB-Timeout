@@ -1,0 +1,10 @@
+[Unit]
+Description=QR30 LED suspend off
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/QR30-led.sh on
+
+[Install]
+WantedBy=sleep.target

@@ -92,9 +92,16 @@ SEND_BRIGHTNESS[10]="2eaaec6b00070d0b02000064ff850000000000000000000000000000000
 # --- send hex to speaker ---
 send_hidraw() {
     local hex="$1"
+    
+    # skip if system is suspending
+    if [ -f /tmp/qr30-sleep.lock ]; then
+        echo "locked"
+        return
+    fi
     echo "$hex" | xxd -r -p | dd bs=64 count=1 conv=sync of=$(find_qr30_hidraw) >/dev/null 2>&1
-
 }
+
+
 
 #I don't query it because it may be needed to fire a stream of interrupts to receive it
 # remember to use the same number os steps otherwhise up and down or not, I don't care
