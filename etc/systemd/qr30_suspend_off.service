@@ -1,6 +1,9 @@
 [Unit]
-Description=QR30 LED suspend off
+Description=QR30 LED suspend/shutdown off
 Before=sleep.target
+Before=poweroff.target
+Before=halt.target
+Before=reboot.target
 
 [Service]
 Type=oneshot
@@ -8,3 +11,6 @@ ExecStart=/usr/local/bin/QR30-led.sh off
 
 [Install]
 WantedBy=sleep.target
+WantedBy=poweroff.target
+WantedBy=halt.target
+WantedBy=reboot.target
