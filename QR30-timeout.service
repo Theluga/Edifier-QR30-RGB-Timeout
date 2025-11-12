@@ -1,0 +1,12 @@
+[Unit]
+Description=Edifier QR30 timeout RGB lights
+After=graphical-session.target
+
+[Service]
+ExecStartPre=/bin/bash -c "sleep 10"
+ExecStart=%h/.local/bin/QR30_timeout-_simple_animation.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
