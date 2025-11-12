@@ -49,3 +49,6 @@ Powering off and rebooting does not turn the speaker down. Will investigate some
     <img src="https://img.youtube.com/vi/k4Ag1TyBJ8g/hqdefault.jpg" alt="Watch the video" width="480">
   </a>
 </p>
+
+## Depends on
+https://codeberg.org/andyscott/wprintidle
