@@ -40,6 +40,8 @@ The speaker has a firmware bug that triggers a reboot when connected to Linux. A
 
 As a temporary workaround, add `usbhid.quirks=0x2d99:0xa101:0x400` to your kernel command line.
 
+Powering off and rebooting does not turn the speaker down. Will investigate someday.
+
 ## Simple video where I show the sycronization and use idle wrong because I was excited. It's in portuguese so...
 
 <p align="center">
