@@ -39,3 +39,7 @@ Udev rules to set the permission needed to talk to the speaker directly.
 The speaker has a firmware bug that triggers a reboot when connected to Linux. An upstream patch is currently in development.
 
 As a temporary workaround, add `usbhid.quirks=0x2d99:0xa101:0x400` to your kernel command line.
+
+## Simple video where I show the sycronization and use idle wrong because I was excited. It's in portuguese so...
+
+[![Watch the video](https://img.youtube.com/vi/k4Ag1TyBJ8g/maxresdefault.jpg)](https://youtu.be/k4Ag1TyBJ8g)
