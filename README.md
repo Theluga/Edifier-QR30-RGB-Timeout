@@ -1,4 +1,4 @@
-# 💤 Edifier QR30 Timeout + Simple LED Animation Controller
+# 💤 Edifier QR30 Timeout + Simple LED Animation
 
 Automatically dims, and animates the **LED brightness** of the **Edifier QR30** (VID `2d99`, PID `a101`) speaker or keyboard, depending on user idle time and volume changes with smooth brightness transitions.
 
